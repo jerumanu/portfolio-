@@ -9,7 +9,7 @@
 
 	<!-- <link rel="stylesheet" href="assets/styles/styles.css"> -->
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style.css">
@@ -20,24 +20,43 @@
 
 <body>
 	<div class="container_fluid">
+		<canvas id="canvas"></canvas>
+		<!-- <figure>
+			<img src="./images/water1.jpg" alt="" height="100%" width="100%">
+			<figcaption>
+				<h3>Title</h3>
+				<p>Description.</p>
+			</figcaption>
+		</figure> -->
 
 		<section id="about">
-			<div class="row ">
+    
+			
 				<div class="small-12 large-8 large-offset-2 columns text-center">
-					<div class="profile-photo" style="background-image: url(./images/);">
-					</div>
-					<div class="details  " style="padding-top: 10%; padding-bottom:5%; ">
-						<img src="./images/IMG_20191204_153123_1.jpg" alt="" style="border-radius: 100px;" height="200px " width="200 px
-						">
-						<h2>Hi, I'm Emmanuel.
-							<br> 
-							  A full-stuck web developer </small>
-							</h2>
-					</div>
+					
+					<div class="details  " style="padding-top: 5%; padding-bottom:3%; ">
+						<div class="animate seven">
+							<span>Hi,</span>&nbsp;<span>I'm </span>&nbsp;<span>Emmanuel..</span><br> &nbsp;
+							<span>A</span>&nbsp;<span>full</span><span>-stuck</span>&nbsp;<span>web</span>&nbsp;<span>developer</span>
+						</div>
+						
+						<!-- <img src="./images/IMG_20191204_153123_1.jpg" alt="" style="border-radius: 100px;" height="200px " width="200 px 
+						" style="padding-top: 3%;"> -->
+					
+
+							<h1 id="h1">First, solve the problem.
+								<span
+								   class="txt-rotate"
+								   data-period="2000"
+								   data-rotate='["Then, write the code.", "Make it work",  "make it right.", "make it fast" ]'></span>
+							  </h1>
+							  
+
+					
 				</div>
 			</div>
 			<div class="row">
-				<div class="small-12 column" style="padding-bottom: 12%;">
+				<div class="small-12 column" style="padding-bottom: 10%;">
 					<div class="cta text-center">
 						<a class="my-button cta-button expand form-button" href="mailto:emmanueljeru200@gmail.com">Get
 							In Touch</a>
@@ -45,9 +64,33 @@
 				</div>
 
 			</div>
-
+			<div class="bubbles ">
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+				<div class="bublle"></div>
+			<!-- <img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px"> -->
+			<!-- <img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px">
+			<img src="./images/cartoon-speech-bubble.jpg" alt="" height="40px" width="40px"> -->
+			</div>
 		</section>
-
+	</canvas>
 
 		<section id="experience">
 			<div class="container">
@@ -107,7 +150,7 @@
 					<div class="col-md-5 col-sm-5 sm col-lg-5">
 						<div class="card">
 							<h3>Quote App</h3>
-							<img src="./images/Screenshot from 2021-01-25 18-25-09.png" alt="" height="400 px"
+							<img src="./images/Screenshot from 2021-01-40 18-40-09.png" alt="" height="400 px"
 								width="400 px">
 
 
@@ -123,7 +166,7 @@
 						<div class="card">
 							<h3>pizza app</h3>
 
-							<img src="./images/Screenshot from 2021-01-25 18-13-55.png" alt="" height="400 px"
+							<img src="./images/Screenshot from 2021-01-40 18-13-55.png" alt="" height="400 px"
 								width="400 px">
 
 							<p>pizza app is an javascrip online shop applications where users can order pizaa </p>
@@ -186,8 +229,9 @@
 	</div>
 
 	</section>
+	
 
-
+ <script src='./main.js' ></script>
 </body>
 
 </html>
